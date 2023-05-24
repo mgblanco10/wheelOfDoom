@@ -1,0 +1,51 @@
+.star-container {
+    position: relative;
+    width: 100px; /* Ajusta el tamaño según sea necesario */
+    height: 100px;
+    margin-top: 40px;
+    margin-left: 160px;
+  }
+  
+  .star {
+    position: absolute;
+    width: 35px; 
+    height: 35px;
+    animation-name: twinkling;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    left: 83px;
+    top: -7px;
+  }
+  
+  .star:nth-child(1) {
+    top: -35px;
+    left: 120px;
+  }
+  
+  .star:nth-child(2) {
+    top: 40px;
+    left: 60px;
+  }
+  
+  .star:nth-child(3) {
+    top: -1px;
+    left: 140px;
+  }
+  .star:nth-child(4) {
+    top: 35px;
+    left: 110px;
+  }
+ 
+  @keyframes twinkling {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  

@@ -1,55 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+:root{
+    --mainColor: #883c82;
+    --pText: #737373;
+    --buttonText: #ffbf00;
+    --borderColor: #a2738c;
+    --white: #FFFF;
+    --black: #000;
+}
 
 body{
   margin: 0;
   font-family: 'Roboto', sans-serif;
 }
-
 header{
-    width: 390px;
-    height: 71px;
-    background-color: #883c82;
+    width: 100%;
+    height: 77px;
+    background-color: var(--mainColor);
 }
-
 .mainImg{
-    width: 390px;
+    width: 100%;
     height: 264px;
 }
-
 .paragraphMain{
    font-size: 24px;
-   color: #737373;
+   color: var(--pText);
    padding: 38px 30px;
-
 }
-
 .button{
      display: flex;
      justify-content: center;
-    
+     text-decoration: none;
+     cursor: pointer;
 }
-
 .btnStart{
     border-radius: 10px;
     width: 150px;
     height: 50px;
-    background-color: #883c82;
-    border: 3px solid #a2738c;
-    color: #ffbf00;
+    background-color: var(--mainColor);
+    border: 3px solid var(--borderColor);
+    color: var( --buttonText);
     font-weight: bold;
     justify-content: center;
-
+    font-size: 20px;
 }
-
 footer{
-    height: 74px;
-    width:390px ;
-    background-color: #883c82;
+    height: 83px;
+    width: 100%;
+    background-color: var(--mainColor);
     margin-top: 45px;
 }
-
 .copyright{
-    color: white;
+    color: var(--white);
     text-align: center;
-    padding: 22px;
+    padding: 30px;
 }

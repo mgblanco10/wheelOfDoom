@@ -5,11 +5,14 @@ function agreeName() {
       var li = document.createElement("li");
       li.appendChild(document.createTextNode(nombre));
 
-      var deleteButton = document.createElement("button");
-      deleteButton.appendChild(document.createTextNode("X"));
+      var deleteButton = document.createElement("img");
+      deleteButton.src = "/images/close.png"; 
+      deleteButton.alt = "Eliminar";
+      deleteButton.classList.add("deleteButton"); 
       deleteButton.onclick = function() {
          deleteName(this);
       };
+      
 
       li.appendChild(deleteButton);
       document.getElementById("namesList").appendChild(li);
