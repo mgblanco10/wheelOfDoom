@@ -55,4 +55,7 @@ Una vez hayamos terminado con la elimincacion aleatoria se anuncia un alert Fini
 ## Tecnologías utilizadas
 
 ## Colaboradoras
+## Autores
 
+| [<img src="https://avatars.githubusercontent.com/u/37356058?v=4" width=115><br><sub>Rosa Pedret</sub>](https://github.com/Rosapedret2) |  [<img src="https://avatars.githubusercontent.com/u/71970858?v=4" width=115><br><sub>Marga</sub>]([https://github.com/guilhermeonrails](https://github.com/ellenpimentel)) |  [<img src="https://avatars.githubusercontent.com/u/91544872?v=4" width=115><br><sub>Génesys Rondón</sub>](https://github.com/genesysaluralatam) |
+| :---: | :---: | :---: |
