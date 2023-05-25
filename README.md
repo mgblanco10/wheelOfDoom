@@ -1,15 +1,18 @@
 
-# Supernovas STUDIO - Project wheelOfDoom - Factoria F5
-![logo de supernovas](/img/logo-supernovas.png)
+<h1 align="center"> Supernovas STUDIO - Project wheelOfDoom - Factoria F5 </h1>
+  
+  <p align="left">
+   <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green">
+   </p>
 
+
+![logo de supernovas](/img/logo-supernovas.png)
+ 
 
 ## Introducción
   wheelOfDoom es un proyecto que ha solicitado un cliente con el objetivo de crear un sistema aleatorio.
 
-   <p align="left">
-   <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green">
-   </p>
-
+ 
 ## Contexto del proyecto
  La asociación Sacrificios SAS precursora de grandes eventos tales como la purga, el laberinto, los juegos del hambre, battle royale, el juego del calamar, entre otros; quiere desarrollar una aplicación web para un nuevo evento de sacrifico de coders, la aplicación debe ser un sistema de sacrificios justo y aleatorio, en la que se hará el sorteo de una lista de nombres. 
 
