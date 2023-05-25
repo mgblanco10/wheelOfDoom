@@ -1,7 +1,7 @@
 
 <h1 align="center"> Supernovas STUDIO - Project wheelOfDoom - Factoria F5 </h1>
   
-  <p align="left">
+  <p align="center">
    <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green">
    </p>
 
