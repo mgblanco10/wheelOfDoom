@@ -18,7 +18,7 @@ cuando  empezamos nos brinda una lista para introducir los nombres de las coders
 
 una vez agregados los nombres, ponemos iniciar el juego. 
 
-![Image text](/path/to/the/screenshot.png)
+![seccion de la pagina donde esta la lista](/img/lista.png.png)
 
 aleatoriamente se seleccionará una estrella quien contendrà el nombre de la coder que queda eliminada, a su vez el contador de la parte inferior nos muestra cuantas coder 'estrellas' han caìdo y cuantas siguen aun latentes.
 
