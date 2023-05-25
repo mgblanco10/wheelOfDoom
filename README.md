@@ -1,7 +1,7 @@
 
-# wheelOfDoom
+# Supernovas STUDIO - Project wheelOfDoom - Factoria F5
 ![logo de supernovas](/img/logo-supernovas.png)
-project wheelOfDoom - Factoria F5
+
 
 ## Introducción
   wheelOfDoom es un proyecto que ha solicitado un cliente con el objetivo de crear un sistema aleatorio.
