@@ -68,7 +68,6 @@ function playGame() {
     numbers1.className = 'numbers';
     container1.appendChild(numbers1);
   
-  
     var button1 = document.createElement('button');
     button1.className = 'btnGame';
     button1.textContent = 'INICIAR';
@@ -86,20 +85,32 @@ function playGame() {
     var numbers2 = document.createElement('div');
     numbers2.className = 'numbers';
     container2.appendChild(numbers2);
-    function pintarContadores() {
-      container2.textContent = players.length
-      container1.textContent = playersRemoved.length
-    }
-    pintarContadores()
+
+   function counterDraw() {
+    numbers2.textContent = players.length;
+    numbers1.textContent = playersRemoved.length;
+   }
+   counterDraw()
 
     function playerRemoved() {
       const indiceRandom = getRandomInt(players.length-1);
-      
+      const jugadorEliminado = players.splice(indiceRandom, 1)[0];
+      playerRemoved.push(jugadorEliminado);
+      counterDraw();
     }
-
+    
+    function getRandomInt(max) {
+      return Math.floor(Math.random() * max);
+    }
+    
+    button1.addEventListener('click', function(){
+      if (players.length > 0) {
+        const indiceRandom = getRandomInt(players.length -1)
+        const jugadorSeleccionado = players[indiceRandom]
+        console.log(jugadorSeleccionado);
+      }
+    })
   }
 
-  function getRandomInt(max) {
-    return Math.floor(Math.random() * max);
-  }
+  
   
