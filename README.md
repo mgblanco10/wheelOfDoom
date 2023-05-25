@@ -25,17 +25,17 @@
  - `Funcionalidad 4`: Alert Finish para volver a jugar.
 
 ## ¿COMO FUNCIONA?
- una vez entramos en la aplicacion, brinda la bienvenida al usuario y la funcionalidad de empezar.
+ Una vez entramos en la aplicacion, brinda la bienvenida al usuario y la funcionalidad de empezar.
 
  ![pagina principal de la aplicacion](/img/pagina-principal.png)
 
-cuando  empezamos nos brinda una lista para introducir los nombres de las coders que se quieren poner en aleatorio para el sacrificio.
+Cuando  empezamos nos brinda una lista para introducir los nombres de las coders que se quieren poner en aleatorio para el sacrificio.
 
-una vez agregados los nombres, ponemos iniciar el juego. 
+Una vez agregados los nombres, ponemos iniciar el juego. 
 
 ![seccion de la pagina donde esta la lista](/img/lista.png)
 
-aleatoriamente se seleccionará una estrella quien contendrà el nombre de la coder que queda eliminada, a su vez el contador de la parte inferior nos muestra cuantas coder 'estrellas' han caìdo y cuantas siguen aun latentes.
+Aleatoriamente se seleccionará una estrella quien contendrà el nombre de la coder que queda eliminada, a su vez el contador de la parte inferior nos muestra cuantas coder 'estrellas' han caìdo y cuantas siguen aun latentes.
 
 ![seccion de la pagina donde estan las estrellas y el contador](/img/jugar.png)
 
@@ -72,7 +72,6 @@ Una vez hayamos terminado con la elimincacion aleatoria se anuncia un alert Fini
 
 
 ## Colaboradoras
-## Autores
 
-| [<img src="https://avatars.githubusercontent.com/u/131767553?v=4" width=115><br><sub>Rosa Pedret</sub>](https://github.com/Rosapedret2) |  [<img src="https://avatars.githubusercontent.com/u/71970858?v=4" width=115><br><sub>Marga</sub>]([https://github.com/guilhermeonrails](https://github.com/ellenpimentel)) |  [<img src="https://avatars.githubusercontent.com/u/131777684?v=4" width=115><br><sub>Zoraida Moreno</sub>](https://github.com/ZoraidaMorenoCadenas) |  [<img src="https://avatars.githubusercontent.com/u/107352744?v=4" width=115><br><sub>Monica Blanco</sub>](https://github.com/mgblanco10) |  [<img src="https://avatars.githubusercontent.com/u/132341389?v=4" width=115><br><sub>Valentina Rios</sub>](https://github.com/valblue21) |
+| [<img src="https://avatars.githubusercontent.com/u/131767553?v=4" width=115><br><sub>Rosa Pedret</sub>](https://github.com/Rosapedret2) |  [<img src="https://avatars.githubusercontent.com/u/000?v=4" width=115><br><sub>Marga</sub>]([https://github.com/marga]) |  [<img src="https://avatars.githubusercontent.com/u/131777684?v=4" width=115><br><sub>Zoraida Moreno</sub>](https://github.com/ZoraidaMorenoCadenas) |  [<img src="https://avatars.githubusercontent.com/u/107352744?v=4" width=115><br><sub>Monica Blanco</sub>](https://github.com/mgblanco10) |  [<img src="https://avatars.githubusercontent.com/u/132341389?v=4" width=115><br><sub>Valentina Rios</sub>](https://github.com/valblue21) |
 | :---: | :---: | :---: | :---: | :---: | 
