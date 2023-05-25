@@ -26,7 +26,7 @@ aleatoriamente se seleccionará una estrella quien contendrà el nombre de la co
 
 Una vez hayamos terminado con la elimincacion aleatoria se anuncia un alert Finish que indica que todas las estrellas se han fugado, y nos da la opcion de volver a jugar. 
 
- ![Image text](/path/to/the/screenshot.png)
+ ![imagen de alerta para volver a jugar](/img/alerta.png)
 
 ## Estado del proyecto
 <h4 align="center">
