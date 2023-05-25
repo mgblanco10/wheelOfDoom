@@ -17,9 +17,41 @@ function playGame() {
       stars[i].style.display = 'none';
     }
   
+    var starList = document.createElement('img');
+    starList.className = 'starList';
+    starList.src = '/images/starYellow.png';
+    starList.alt = 'Imagen de estrella sobre la imagen de fondo que parpadea y que representa la cantidad de la lista';
+  
+    var numStars = namesList.children.length; 
+  
+    var starWidth = 30; 
+    var starHeight = 30; 
+    var spaceBetweenStars = 10;
+  
+    var containerWidth = starContainer.offsetWidth; 
+  
+    var starsPerRow = Math.floor(containerWidth / (starWidth + spaceBetweenStars)); 
+  
+    for (var i = 0; i < numStars; i++) {
+      var star = starList.cloneNode(true); 
+  
+      var row = Math.floor(i / starsPerRow); 
+      var col = i % starsPerRow; 
+  
+      var starX = col * (starWidth + spaceBetweenStars);
+      var starY = row * (starHeight + spaceBetweenStars);
+  
+      star.style.left = starX + 'px'; 
+      star.style.top = starY + 'px';
+  
+      star.className = 'star'; 
+  
+      starContainer.appendChild(star); 
+    }
+  
     var newStar = document.createElement('img');
     newStar.className = 'imgGame';
-    newStar.src = '/images/imgGame.JPG'; 
+    newStar.src = '/images/imgGame.JPG';
     newStar.alt = 'Imagen del juego';
     starContainer.appendChild(newStar);
   
@@ -35,6 +67,7 @@ function playGame() {
     var numbers1 = document.createElement('div');
     numbers1.className = 'numbers';
     container1.appendChild(numbers1);
+  
   
     var button1 = document.createElement('button');
     button1.className = 'btnGame';
