@@ -1,4 +1,6 @@
+
 # wheelOfDoom
+![logo de supernovas](/img/logo-supernovas.png)
 project wheelOfDoom - Factoria F5
 
 ## Introducción
