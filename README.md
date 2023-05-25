@@ -52,7 +52,12 @@ Una vez hayamos terminado con la elimincacion aleatoria se anuncia un alert Fini
 
 ## Figma
 
-## Tecnologías utilizadas
+ ## Tecnologías utilizadas
+:white_check_mark: HTML
+:white_check_mark: CSS
+:white_check_mark: Javascript
+:white_check_mark: Visual Studio Code
+:white_check_mark: Git / Github
 
 ## Colaboradoras
 ## Autores
