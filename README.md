@@ -22,7 +22,7 @@ una vez agregados los nombres, ponemos iniciar el juego.
 
 aleatoriamente se seleccionará una estrella quien contendrà el nombre de la coder que queda eliminada, a su vez el contador de la parte inferior nos muestra cuantas coder 'estrellas' han caìdo y cuantas siguen aun latentes.
 
-![Image text](/path/to/the/screenshot.png)
+![seccion de la pagina donde estan las estrellas y el contador](/img/jugar.png)
 
 Una vez hayamos terminado con la elimincacion aleatoria se anuncia un alert Finish que indica que todas las estrellas se han fugado, y nos da la opcion de volver a jugar. 
 
