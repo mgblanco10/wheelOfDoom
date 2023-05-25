@@ -51,7 +51,8 @@ Una vez hayamos terminado con la elimincacion aleatoria se anuncia un alert Fini
 </h4>
 
 ## Figma
-
+![imagen del figma boceto](/img/figma.png)
+![imagen del figma prototipo](/img/figma-color.png)
  ## Tecnologías utilizadas
  <h4 align="center">
 :white_check_mark: HTML :white_check_mark:
