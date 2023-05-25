@@ -57,5 +57,5 @@ Una vez hayamos terminado con la elimincacion aleatoria se anuncia un alert Fini
 ## Colaboradoras
 ## Autores
 
-| [<img src="https://avatars.githubusercontent.com/u/37356058?v=4" width=115><br><sub>Rosa Pedret</sub>](https://github.com/Rosapedret2) |  [<img src="https://avatars.githubusercontent.com/u/71970858?v=4" width=115><br><sub>Marga</sub>]([https://github.com/guilhermeonrails](https://github.com/ellenpimentel)) |  [<img src="https://avatars.githubusercontent.com/u/91544872?v=4" width=115><br><sub>Génesys Rondón</sub>](https://github.com/genesysaluralatam) |
-| :---: | :---: | :---: |
+| [<img src="https://avatars.githubusercontent.com/u/131767553?v=4" width=115><br><sub>Rosa Pedret</sub>](https://github.com/Rosapedret2) |  [<img src="https://avatars.githubusercontent.com/u/71970858?v=4" width=115><br><sub>Marga</sub>]([https://github.com/guilhermeonrails](https://github.com/ellenpimentel)) |  [<img src="https://avatars.githubusercontent.com/u/131777684?v=4" width=115><br><sub>Zoraida Moreno</sub>](https://github.com/ZoraidaMorenoCadenas) |  [<img src="https://avatars.githubusercontent.com/u/107352744?v=4" width=115><br><sub>Monica Blanco</sub>](https://github.com/mgblanco10) |  [<img src="https://avatars.githubusercontent.com/u/132341389?v=4" width=115><br><sub>Valentina Rios</sub>](https://github.com/valblue21) |
+| :---: | :---: | :---: | :---: | :---: | 
