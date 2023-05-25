@@ -17,6 +17,16 @@ header{
     height: 77px;
     background-color: var(--mainColor);
 }
+.logo {
+    width: 77px;
+    height: 70px;
+    margin: 5px;
+}
+.menu{
+    position: absolute;
+    left: 300px;
+    top: 5px;
+}
 .mainImg{
     width: 100%;
     height: 264px;
