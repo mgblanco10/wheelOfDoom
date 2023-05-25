@@ -11,7 +11,7 @@
 
  ## :hammer:Funcionalidades del proyecto
 
- `Funcionalidad 1`: Empezar. 
+ - `Funcionalidad 1`: Empezar. 
 `Funcionalidad 2`: Agregar en una lista las coders .
 `Funcionalidad 2a`: Elegir aleatoriamente de la lista.
 `Funcionalidad 3`: Contador que indique cuantas coder hemos agregado y cuantas hemos eliminado.
