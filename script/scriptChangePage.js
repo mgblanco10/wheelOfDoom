@@ -86,5 +86,20 @@ function playGame() {
     var numbers2 = document.createElement('div');
     numbers2.className = 'numbers';
     container2.appendChild(numbers2);
+    function pintarContadores() {
+      container2.textContent = players.length
+      container1.textContent = playersRemoved.length
+    }
+    pintarContadores()
+
+    function playerRemoved() {
+      const indiceRandom = getRandomInt(players.length-1);
+      
+    }
+
+  }
+
+  function getRandomInt(max) {
+    return Math.floor(Math.random() * max);
   }
   
