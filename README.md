@@ -12,10 +12,10 @@
  ## :hammer:Funcionalidades del proyecto
 
  - `Funcionalidad 1`: Empezar. 
-`Funcionalidad 2`: Agregar en una lista las coders .
-`Funcionalidad 2a`: Elegir aleatoriamente de la lista.
-`Funcionalidad 3`: Contador que indique cuantas coder hemos agregado y cuantas hemos eliminado.
-`Funcionalidad 4`: Alert Finish para volver a jugar.
+ - `Funcionalidad 2`: Agregar en una lista las coders .
+ - `Funcionalidad 2a`: Elegir aleatoriamente de la lista.
+ - `Funcionalidad 3`: Contador que indique cuantas coder hemos agregado y cuantas hemos eliminado.
+ - `Funcionalidad 4`: Alert Finish para volver a jugar.
 
 ## ¿COMO FUNCIONA?
  una vez entramos en la aplicacion, brinda la bienvenida al usuario y la funcionalidad de empezar.
