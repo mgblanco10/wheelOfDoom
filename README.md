@@ -17,7 +17,6 @@
  La asociación Sacrificios SAS precursora de grandes eventos tales como la purga, el laberinto, los juegos del hambre, battle royale, el juego del calamar, entre otros; quiere desarrollar una aplicación web para un nuevo evento de sacrifico de coders, la aplicación debe ser un sistema de sacrificios justo y aleatorio, en la que se hará el sorteo de una lista de nombres. 
 
  ## :hammer:Funcionalidades del proyecto
-## 🔨Funcionalidades del proyecto
 
  - `Funcionalidad 1`: Empezar. 
  - `Funcionalidad 2`: Agregar en una lista las coders .
@@ -48,9 +47,6 @@ Una vez hayamos terminado con la elimincacion aleatoria se anuncia un alert Fini
 
 ## Estado del proyecto
 <h4 align="center">
-🚧 Proyecto en construcción 🚧
-</h4>
-<h4 align="center">
 :construction: Proyecto en construcción :construction:
 </h4>
 
@@ -74,7 +70,6 @@ Una vez hayamos terminado con la elimincacion aleatoria se anuncia un alert Fini
 <h4 align="center">
 :white_check_mark: Git / Github :white_check_mark:
 </h4>
-
 
 
 ## Colaboradoras
