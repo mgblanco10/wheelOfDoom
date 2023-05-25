@@ -9,6 +9,14 @@
 ## Contexto del proyecto
  La asociación Sacrificios SAS precursora de grandes eventos tales como la purga, el laberinto, los juegos del hambre, battle royale, el juego del calamar, entre otros; quiere desarrollar una aplicación web para un nuevo evento de sacrifico de coders, la aplicación debe ser un sistema de sacrificios justo y aleatorio, en la que se hará el sorteo de una lista de nombres. 
 
+ ## :hammer:Funcionalidades del proyecto
+
+ `Funcionalidad 1`: Empezar. 
+`Funcionalidad 2`: Agregar en una lista las coders .
+`Funcionalidad 2a`: Elegir aleatoriamente de la lista.
+`Funcionalidad 3`: Contador que indique cuantas coder hemos agregado y cuantas hemos eliminado.
+`Funcionalidad 4`: Alert Finish para volver a jugar.
+
 ## ¿COMO FUNCIONA?
  una vez entramos en la aplicacion, brinda la bienvenida al usuario y la funcionalidad de empezar.
 
@@ -28,9 +36,16 @@ Una vez hayamos terminado con la elimincacion aleatoria se anuncia un alert Fini
 
  ![imagen de alerta para volver a jugar](/img/alerta.png)
 
+
+
 ## Estado del proyecto
 <h4 align="center">
 :construction: Proyecto en construcción :construction:
 </h4>
 
 ## Figma
+
+## Tecnologías utilizadas
+
+## Colaboradoras
+
