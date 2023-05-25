@@ -11,9 +11,9 @@ project wheelOfDoom - Factoria F5
 
 ## ¿COMO FUNCIONA?
  una vez entramos en la aplicacion, brinda la bienvenida al usuario y la funcionalidad de empezar.
-
+<p align="left">
  ![pagina principal de la aplicacion](/img/pagina-principal.png)
-
+</p>
 cuando  empezamos nos brinda una lista para introducir los nombres de las coders que se quieren poner en aleatorio para el sacrificio.
 
 una vez agregados los nombres, ponemos iniciar el juego. 
