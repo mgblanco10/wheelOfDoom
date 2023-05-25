@@ -52,7 +52,7 @@ Una vez hayamos terminado con la elimincacion aleatoria se anuncia un alert Fini
 
 ## Figma
 ![imagen del figma boceto](/img/figma.png)
-![imagen del figma atomos](/img/atomos.png)
+![imagen del figma atomos](/img/Atomos.png)
 ![imagen del figma prototipo](/img/figma-color.png)
  ## Tecnologías utilizadas
  <h4 align="center">
