@@ -95,19 +95,18 @@ function playGame() {
 
   function playerRemoved() {
     if (players.length > 0) {
+      var starId = 'star-' + playersRemoved.length;
+      var starToRemove = document.getElementById(starId);
+      if (starToRemove) {
+        starToRemove.style.display = 'none';
+        starToRemove.remove();
+      }
+  
       var indiceRandom = getRandomInt(players.length - 1);
       var jugadorEliminado = players.splice(indiceRandom, 1)[0];
       playersRemoved.push(jugadorEliminado);
       counterDraw();
-
-      var starId = 'star-' + indiceRandom;
-      var starToRemove = document.getElementById(starId);
-      if (starToRemove) {
-        starToRemove.style.display = 'none'; 
-        starToRemove.remove(); 
-      }
     }
-    counterDraw();
   }
   
   function getRandomInt(max) {
