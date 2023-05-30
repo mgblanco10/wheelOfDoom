@@ -7,11 +7,24 @@
     <link rel="stylesheet" href="/style/styles.css">
     <link rel="stylesheet" href="/style/styleHome.css">
     <title>Shooting stars</title>
+    <link rel="stylesheet" href="/style/styleHeader.css">
 </head>
 <body>
-    <header>
-        <img class="logo" src="/images/logoVersionTwo.png" alt="Imagen del logo de la empresa realizadora del juego shooting star">
-        <img class="menu" src="/images/menu.png" alt="Imagen de menu hamburguesa desplegable">
+        <header class="main-header">    
+            <img class="main-logo" src="img/logo.png" alt="imagen del logo">
+            <nav id="nav" class="main-nav" >
+              <ul class="nav-links">
+                <li><a class="link-item" href="#">Nosotras</a></li>
+                <li><a class="link-item" href="#">Jugar</a></li>
+                <li><a class="link-item" href="#">Help</a></li>
+                <li><a class="link-item" href="#">Premium</a></li>
+              </ul>
+            </nav>
+            <button id="button-menu" class="button-menu">
+              &#x2630
+            </button>
+            <button class="button-menu close">X
+            </button>
         
     </header>
     <main>
@@ -23,5 +36,6 @@
         <p class="copyright">&copy Copyright: SuperNova's</p>
     </footer>
     <script src="script.js"></script>
+    <script src="/script/srcriptHeader.js"></script>
 </body>
 </html>

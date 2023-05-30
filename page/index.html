@@ -9,13 +9,27 @@
     <link rel="stylesheet" href="/style/stylesTelescope.css">
     <link rel="stylesheet" href="/style/styleStar.css">
     <link rel="stylesheet" href="/style/stylePageGame.css">
+    <link rel="stylesheet" href="/style/styleHeader.css">
     <title>Shooting stars</title>
 </head>
   <body>
-    <header>
-        <img class="logo" src="/images/logoVersionTwo.png" alt="Imagen del logo de la empresa realizadora del juego shooting star">
-        <img class="menu" src="/images/menu.png" alt="Imagen de menu hamburguesa desplegable">
-    </header>
+    <header class="main-header">    
+        <img class="main-logo" src="img/logo.png" alt="imagen del logo">
+        <nav id="nav" class="main-nav" >
+          <ul class="nav-links">
+            <li><a class="link-item" href="#">Nosotras</a></li>
+            <li><a class="link-item" href="#">Jugar</a></li>
+            <li><a class="link-item" href="#">Help</a></li>
+            <li><a class="link-item" href="#">Premium</a></li>
+          </ul>
+        </nav>
+        <button id="button-menu" class="button-menu">
+          &#x2630
+        </button>
+        <button class="button-menu close">X
+        </button>
+        
+      </header>
   <section class="container">
     <input type="text" id="inputName" class="input" placeholder="Nombre de tus estrellas">
     <button class="btnAgree"onclick="agreeName()"><img class="user" src="/images/muñequito.png" alt="Icono de busto de persona en color sólido"> AGREGAR</button>
@@ -99,6 +113,7 @@
 
   <script src="/script/script.js"></script>
   <script src="/script/scriptChangePage.js"></script>
+  <script src="/script/srcriptHeader.js"></script>
   
   </body>
  </html>
