@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
-  var btnStart = document.querySelector('.btnStart');
-  var audioPlayer = document.getElementById('audioPlayer');
+  let btnStart = document.querySelector('.btnStart');
+  let audioPlayer = document.getElementById('audioPlayer');
 
   btnStart.addEventListener('click', function (event) {
     event.preventDefault(); 

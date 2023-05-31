@@ -15,7 +15,7 @@ function agreeName() {
       deleteButton.alt = "Eliminar";
       deleteButton.classList.add("deleteButton"); 
       deleteButton.onclick = function() {
-        var i = players.indexOf(player)
+        let i = players.indexOf(player)
         players.splice(i, 1)
          deleteName(this);
       };
@@ -31,3 +31,8 @@ function agreeName() {
     let list = element.parentNode;
     list.removeChild(element);
   }
+
+  module.exports = {
+    agreeName,
+    deleteName,
+  };
