@@ -1,5 +1,7 @@
 .imgLogo {
-  width: 90px;
+  width: 95px;
+  margin: 5px;
+  cursor:pointer;
 }
 .navBurger {
   position: fixed;
@@ -34,6 +36,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 .burgerMenuClose,
 .burgerMenuOpen {
@@ -51,6 +54,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 .burgerMenuClose{
   border-radius: 50%;
