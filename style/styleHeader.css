@@ -1,7 +1,3 @@
-.header {
-  width: 390px;
-  height: 71px;
-}
 .imgLogo {
   width: 90px;
 }
@@ -12,6 +8,7 @@
   width: 390px;
   height: 315px;
   background-image: url(/images/menuBackground.png);
+  background-repeat: no-repeat;
   margin: 0px;
   padding: 0px 25px;
   top: -400px;
@@ -21,6 +18,7 @@
   padding-top: 0px;
   width: 324px;
   height: 50px;
+  border: none;
 }
 .buttonMenu {
   background-color: var(--mainColor);
@@ -33,6 +31,9 @@
   font-size: 20px;
   transform: translateY(100%);
   transition: transform 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .burgerMenuClose,
 .burgerMenuOpen {
@@ -41,13 +42,21 @@
   border: 3px solid var(--borderColor);
   background-color: var(--buttonText);
   border-radius: 10px;
-  color: var(--black);
+  color: var(--mainColor);
   font-size: 24px;
   cursor: pointer;
   position: absolute;
   top: 15px;
   right: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+.burgerMenuClose{
+  border-radius: 50%;
+  width: 43px;
+}
+
 .burgerMenuOpen.close {
   display: none;
 }
