@@ -122,7 +122,13 @@ function playGame() {
       playerRemoved();
       var indiceRandom = getRandomInt(players.length - 1);
       var jugadorSeleccionado = players[indiceRandom];
-      playerName.textContent = jugadorSeleccionado;
+      playerName.textContent = jugadorSeleccionado + " ha dejado de brillar";
+      
+      playerName.classList.add('appear-animation');
+      playerName.addEventListener('animationend', function () {
+        playerName.classList.remove('appear-animation');
+      });
+    
     }
   });
 }

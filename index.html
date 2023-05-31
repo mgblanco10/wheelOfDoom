@@ -6,36 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style/styles.css">
     <link rel="stylesheet" href="/style/styleHome.css">
-    <title>Shooting stars</title>
     <link rel="stylesheet" href="/style/styleHeader.css">
+    <title>Shooting stars</title>
 </head>
 <body>
-        <header class="main-header">    
-            <img class="main-logo" src="/images/logo-supernovas.png" alt="imagen del logo">
-            <nav id="nav" class="main-nav" >
-              <ul class="nav-links">
-                <li><a class="link-item" href="#">Nosotras</a></li>
-                <li><a class="link-item" href="#">Jugar</a></li>
-                <li><a class="link-item" href="#">Help</a></li>
-                <li><a class="link-item" href="#">Premium</a></li>
+        <header>  
+            <a href="/index.html"><img src="/images/logo.png" alt="imagen de logo super nova`s" class="imgLogo"></a>
+            <button class="burgerMenuClose" id="button-menu-close">X</button>
+            <button class="burgerMenuOpen" id="button-menu-open">&#x2630</button>
+            <nav class="mobileMenu">
+                <ul class="navBurger" id="navBurger">     
+                <li class="liButton"><button class="buttonMenu">Nosotras
+                </button></li>
+                <li class="liButton"><button class="buttonMenu">Jugar</button></li>
+                <li class="liButton"><button class="buttonMenu">Help</button></li>
+                <li class="liButton"><button class="buttonMenu">Premium</button></li>
               </ul>
-            </nav>
-            <button id="button-menu" class="button-menu">
-              &#x2630
-            </button>
-            <button class="button-menu close">X
-            </button>
-        
+          </nav> 
     </header>
     <main>
         <img class= "mainImg" src="/images/imgHomeTitle.png" alt="Imagen de un muñeco encima de la luna con un fondo azul y el nombre del juego que es Shooting star">
         <p class="paragraphMain">Bienvenidas a nuestra aplicación movil de estrellas fugaces aquí podrás crear, actualizar ó eliminar  el nombre de las estrellas de tu cielo,  presiona empezar y empieza tu aventura</p>
-        <a href="/page/index.html" class="button"><button class="btnStart" >EMPEZAR</button></a>
+        <audio id="audioPlayer" src="/audio/moneda.mp3"></audio>
+        <a href="/page/index.html" class="button"><button class="btnStart">EMPEZAR</button></a>
     </main>
     <footer>
         <p class="copyright">&copy Copyright: SuperNova's</p>
     </footer>
     <script src="script.js"></script>
     <script src="/script/srcriptHeader.js"></script>
+    <script src="/script/scriptAudio.js"></script>
 </body>
 </html>
