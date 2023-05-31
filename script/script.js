@@ -1,15 +1,15 @@
-var players = [];
-var playersRemoved = [];
+let players = [];
+let playersRemoved = [];
 
 function agreeName() {
-    var player = document.getElementById("inputName").value;
+    let player = document.getElementById("inputName").value;
 
     if (player !== "") {
-      var li = document.createElement("li");
+      let li = document.createElement("li");
       li.appendChild(document.createTextNode(player));
       players.push(player);
 
-      var deleteButton = document.createElement("img");
+      let deleteButton = document.createElement("img");
       deleteButton.src = "/images/close.png"; 
       deleteButton.alt = "Eliminar";
       deleteButton.classList.add("deleteButton"); 
@@ -19,7 +19,6 @@ function agreeName() {
          deleteName(this);
       };
       
-
       li.appendChild(deleteButton);
       document.getElementById("namesList").appendChild(li);
       document.getElementById("inputName").value = "";
@@ -27,7 +26,7 @@ function agreeName() {
   }
 
   function deleteName(button) {
-    var element = button.parentNode;
-    var list = element.parentNode;
+    let element = button.parentNode;
+    let list = element.parentNode;
     list.removeChild(element);
   }

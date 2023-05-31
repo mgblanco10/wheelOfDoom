@@ -13,29 +13,30 @@
     <title>Shooting stars</title>
 </head>
   <body>
-    <header class="main-header">    
-        <img class="main-logo" src="/images/logo-supernovas.png" alt="imagen del logo">
-        <nav id="nav" class="main-nav" >
-          <ul class="nav-links">
-            <li><a class="link-item" href="#">Nosotras</a></li>
-            <li><a class="link-item" href="#">Jugar</a></li>
-            <li><a class="link-item" href="#">Help</a></li>
-            <li><a class="link-item" href="#">Premium</a></li>
+    <header>    
+        <a href="/index.html"><img src="/images/logo.png" alt="imagen de logo super nova`s" class="imgLogo"></a>
+        <button class="burgerMenuClose" id="button-menu-close">X</button>
+        <button class="burgerMenuOpen" id="button-menu-open">&#x2630</button>
+        <nav class="mobileMenu">
+            <ul class="navBurger" id="navBurger">     
+            <li><button class="buttonMenu">Nosotras
+            </button></li>
+            <li><button class="buttonMenu">Jugar</button></li>
+            <li><button class="buttonMenu">Help</button></li>
+            <li><button class="buttonMenu">Premium</button></li>
           </ul>
-        </nav>
-        <button id="button-menu" class="button-menu">
-          &#x2630
-        </button>
-        <button class="button-menu close">X
-        </button>
+      </nav> 
         
       </header>
+
   <section class="container">
     <input type="text" id="inputName" class="input" placeholder="Nombre de tus estrellas">
     <button class="btnAgree"onclick="agreeName()"><img class="user" src="/images/muñequito.png" alt="Icono de busto de persona en color sólido"> AGREGAR</button>
     <ul class="listNames" id="namesList"></ul>
     <button class="buttonPlay" onclick="playGame()">JUGAR</button>
   </section>
+  
+  
   <svg class="telescope" viewBox="0 0 100 100" width="180" height="180">
     <g transform="translate(5 5) scale(0.9 0.9)">
        <g class="stand">
