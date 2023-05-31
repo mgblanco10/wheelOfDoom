@@ -6,13 +6,12 @@
     top: -60px;
     transform: translateX(-50%);
     z-index: 1;
-    /* display: none; */
 }
 .containerInfo {
-    width: 51px;
-    height: 44px;
-    border: 3px solid var(--borderColor);;
-    border-radius: 10px;
+   width: 51px;
+   height: 44px;
+   border: 3px solid var(--borderColor);;
+   border-radius: 10px;
    position: absolute;
    top: 625px;
    left: 225px;

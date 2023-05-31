@@ -2,13 +2,10 @@
   width: 390px;
   height: 71px;
 }
-
 .imgLogo {
   width: 90px;
 }
-
 .navBurger {
-  display: none;
   position: fixed;
   z-index: 99;
   text-decoration: none;
@@ -17,11 +14,13 @@
   background-image: url(/images/menuBackground.png);
   margin: 0px;
   padding: 0px 25px;
-  transition: top 0.3s ease-in-out;
+  top: -400px;
+  transition: top 0.8s ease-in-out;
 }
-
-li {
+.liButton {
   padding-top: 0px;
+  width: 324px;
+  height: 50px;
 }
 .buttonMenu {
   background-color: var(--mainColor);
@@ -33,7 +32,7 @@ li {
   font-weight: bold;
   font-size: 20px;
   transform: translateY(100%);
-  transition: transform 2s;
+  transition: transform 0.3s;
 }
 .burgerMenuClose,
 .burgerMenuOpen {
@@ -49,12 +48,9 @@ li {
   top: 15px;
   right: 15px;
 }
-
-.showMenu .navBurger {
-  display: block;
-  top: 50%;
-  transform: translateY(-70%);
-} 
+.burgerMenuOpen.close {
+  display: none;
+}
 
 
 

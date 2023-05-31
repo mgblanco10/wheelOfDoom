@@ -6,6 +6,7 @@ function agreeName() {
 
     if (player !== "") {
       let li = document.createElement("li");
+      
       li.appendChild(document.createTextNode(player));
       players.push(player);
 
