@@ -28,7 +28,6 @@ function playGame() {
   let starHeight = 30;
   let spaceBetweenStars = 15;
 
-
   let containerWidth = starContainer.offsetWidth;
   let starsPerRow = Math.max(Math.floor(containerWidth / (starWidth + spaceBetweenStars)), 5);
 
@@ -55,7 +54,7 @@ function playGame() {
   let newStar = document.createElement('img');
   newStar.className = 'imgGame';
   newStar.src = '/images/imgGame.JPG';
-  newStar.alt = 'Imagen del juego';
+  newStar.alt = 'Imagen del juego donde se van a pintar las estrellas, es un niño sentado';
   starContainer.appendChild(newStar);
 
   let container1 = document.createElement('div');
@@ -70,7 +69,6 @@ function playGame() {
   let numbers1 = document.createElement('div');
   numbers1.className = 'numbers';
   container1.appendChild(numbers1);
-
   
   let container2 = document.createElement('div');
   container2.className = 'containerInfo2';
