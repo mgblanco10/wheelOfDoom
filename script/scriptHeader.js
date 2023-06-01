@@ -16,7 +16,5 @@ function dropDownMenu() {
   }
 }
 
-buttonClose.style.display = "none"; 
-
 buttonMenu.addEventListener("click", dropDownMenu);
 buttonClose.addEventListener("click", dropDownMenu);
