@@ -1,11 +1,11 @@
 const menu = document.getElementById("navBurger");
-const buttonMenu = document.querySelector("#button-menu-open");
-const buttonClose = document.querySelector("#button-menu-close");
+const buttonMenu = document.getElementById("button-menu-open");
+const buttonClose = document.getElementById("button-menu-close");
 
-function toggleMenu() {
+function dropDownMenu() {
   if (menu.classList.contains("show")) {
     menu.classList.remove("show");
-    menu.style.top = "-400px";
+    menu.style.top = "-45%";
     buttonClose.style.display = "none";
     buttonMenu.style.display = "flex";
   } else{
@@ -18,5 +18,5 @@ function toggleMenu() {
 
 buttonClose.style.display = "none"; 
 
-buttonMenu.addEventListener("click", toggleMenu);
-buttonClose.addEventListener("click", toggleMenu);
+buttonMenu.addEventListener("click", dropDownMenu);
+buttonClose.addEventListener("click", dropDownMenu);
