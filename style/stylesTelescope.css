@@ -13,7 +13,7 @@ svg.telescope g.lens {
 @keyframes starGaze {
     0%,
     30% {
-      transform: rotate(-10deg);
+      transform: rotate(-15deg);
     }
     60%,
     100% {
