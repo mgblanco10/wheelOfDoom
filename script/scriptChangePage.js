@@ -110,19 +110,19 @@ function playGame() {
     }
   }
   
-  function getRandomInt(max) {
-    return Math.floor(Math.random() * max);
+  function getRandomInt(num) {
+    return Math.floor(Math.random() * num);
   }
 
-  var playerName = document.createElement('p');
+  let playerName = document.createElement('p');
   playerName.className = 'playerName';
   container1.appendChild(playerName);
 
   button1.addEventListener('click', function () {
     if (players.length > 0) {
       playerRemoved();
-      var indiceRandom = getRandomInt(players.length - 1);
-      var jugadorSeleccionado = players[indiceRandom];
+      let indiceRandom = getRandomInt(players.length - 1);
+      let jugadorSeleccionado = players[indiceRandom];
       playerName.textContent = jugadorSeleccionado + " ha dejado de brillar";
       
       playerName.classList.add('appear-animation');
