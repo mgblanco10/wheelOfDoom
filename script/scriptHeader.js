@@ -10,7 +10,7 @@ function dropDownMenu() {
     buttonMenu.style.display = "flex";
   } else{
     menu.classList.add("show");
-    menu.style.top = "15%";
+    menu.style.top = "25%";
     buttonClose.style.display = "flex";
     buttonMenu.style.display = "none";
   }
