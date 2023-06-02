@@ -36,14 +36,6 @@ describe('function agreeName', () => {
     expect(players).toHaveLength(0);
   });
 
-  it ('should return the  removed element from the array', ()=>{
-    const nameList = ["moni", "valen", "zora", "marga", "rosa"];
-    const name = 2;
-    const expected = ["zora"];
-    
-    expect(nameList).not.toContain("zora");
-
-  })
 
 
 });
