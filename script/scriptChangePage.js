@@ -57,40 +57,40 @@ function playGame() {
   newStar.alt = 'Imagen del juego donde se van a pintar las estrellas, es un niño sentado';
   starContainer.appendChild(newStar);
 
-  let container1 = document.createElement('div');
-  container1.className = 'containerInfo';
-  starContainer.parentNode.insertBefore(container1, starContainer.nextSibling);
+  let containerStarDead = document.createElement('div');
+  containerStarDead.className = 'containerInfo';
+  starContainer.parentNode.insertBefore(containerStarDead, starContainer.nextSibling);
 
-  let title1 = document.createElement('h2');
-  title1.className = 'titleStatus';
-  title1.textContent = 'Estrellas caídas';
-  container1.appendChild(title1);
+  let titleStarDead = document.createElement('h2');
+  titleStarDead.className = 'titleStatus';
+  titleStarDead.textContent = 'Estrellas caídas';
+  containerStarDead.appendChild(titleStarDead );
 
-  let numbers1 = document.createElement('div');
-  numbers1.className = 'numbers';
-  container1.appendChild(numbers1);
+  let numbersStarDead = document.createElement('div');
+  numbersStarDead.className = 'numbers';
+  containerStarDead.appendChild(numbersStarDead);
   
-  let container2 = document.createElement('div');
-  container2.className = 'containerInfo2';
-  starContainer.parentNode.insertBefore(container2, starContainer.nextSibling);
+  let containerStarShine = document.createElement('div');
+  containerStarShine.className = 'containerInfo2';
+  starContainer.parentNode.insertBefore(containerStarShine, starContainer.nextSibling);
 
-  let title2 = document.createElement('h2');
-  title2.className = 'titleStatus';
-  title2.textContent = 'Estrellas latentes';
-  container2.appendChild(title2);
+  let titleStarShine = document.createElement('h2');
+  titleStarShine.className = 'titleStatus';
+  titleStarShine.textContent = 'Estrellas latentes';
+  containerStarShine.appendChild(titleStarShine);
   
-  let numbers2 = document.createElement('div');
-  numbers2.className = 'numbers';
-  container2.appendChild(numbers2);
+  let numberStarShine = document.createElement('div');
+  numberStarShine.className = 'numbers';
+  containerStarShine.appendChild(numberStarShine);
 
-  let button1 = document.createElement('button');
-  button1.className = 'btnGame';
-  button1.textContent = 'INICIAR';
-  container1.appendChild(button1);
+  let buttonStartGame = document.createElement('button');
+  buttonStartGame.className = 'btnGame';
+  buttonStartGame.textContent = 'INICIAR';
+  containerStarDead.appendChild(buttonStartGame);
 
   function counterDraw() {
-    numbers2.textContent = players.length;
-    numbers1.textContent = playersRemoved.length;
+    numberStarShine.textContent = players.length;
+    numbersStarDead.textContent = playersRemoved.length;
   }
   counterDraw();
 
@@ -116,9 +116,9 @@ function playGame() {
 
   let playerName = document.createElement('p');
   playerName.className = 'playerName';
-  container1.appendChild(playerName);
+  containerStarDead.appendChild(playerName);
 
-  button1.addEventListener('click', function () {
+  buttonStartGame.addEventListener('click', function () {
     if (players.length > 0) {
       playerRemoved();
       let indiceRandom = getRandomInt(players.length - 1);
@@ -127,7 +127,7 @@ function playGame() {
       
       playerName.classList.add('appear-animation');
       playerName.addEventListener('animationend', function () {
-        playerName.classList.remove('appear-animation');
+      playerName.classList.remove('appear-animation');
       });
     
     }
