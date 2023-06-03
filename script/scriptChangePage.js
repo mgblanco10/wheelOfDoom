@@ -94,6 +94,7 @@ function playGame() {
   }
   counterDraw();
 
+  let jugadorEliminado;
   function playerRemoved() {
     if (players.length >= 0) {
       let starId = 'star-' + playersRemoved.length;
@@ -104,7 +105,7 @@ function playGame() {
       }
   
       let indiceRandom = getRandomInt(players.length - 1);
-      let jugadorEliminado = players.splice(indiceRandom, 1)[0];
+      jugadorEliminado = players.splice(indiceRandom, 1)[0];
       playersRemoved.push(jugadorEliminado);
       counterDraw();
     }
@@ -119,11 +120,9 @@ function playGame() {
   containerStarDead.appendChild(playerName);
 
   buttonStartGame.addEventListener('click', function () {
-    if (players.length > 0) {
+    if (players.length >= 0) {
       playerRemoved();
-      let indiceRandom = getRandomInt(players.length - 1);
-      let jugadorSeleccionado = players[indiceRandom];
-      playerName.textContent = jugadorSeleccionado + " ha dejado de brillar";
+      playerName.textContent = jugadorEliminado + " ha dejado de brillar";
       
       playerName.classList.add('appear-animation');
       playerName.addEventListener('animationend', function () {

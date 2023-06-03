@@ -3,10 +3,8 @@ let playersRemoved = [];
 
 function agreeName() {
     let player = document.getElementById("inputName").value;
-
     if (player !== "") {
       let li = document.createElement("li");
-      
       li.appendChild(document.createTextNode(player));
       players.push(player);
 
@@ -14,6 +12,8 @@ function agreeName() {
       deleteButton.src = "/images/close.png"; 
       deleteButton.alt = "Eliminar";
       deleteButton.classList.add("deleteButton"); 
+
+      
       deleteButton.onclick = function() {
         let i = players.indexOf(player)
         players.splice(i, 1)
@@ -32,7 +32,7 @@ function agreeName() {
     list.removeChild(element);
   }
 
-  module.exports = {
-    agreeName,
-    deleteName,
-  };
+  // module.exports = {
+  //   agreeName,
+  //   deleteName,
+  // };
