@@ -122,13 +122,17 @@ function playGame() {
   buttonStartGame.addEventListener('click', function () {
     if (players.length >= 0) {
       playerRemoved();
-      playerName.textContent = jugadorEliminado + " ha dejado de brillar";
-      
-      playerName.classList.add('appear-animation');
-      playerName.addEventListener('animationend', function () {
-      playerName.classList.remove('appear-animation');
-      });
-    
+
+      let starAnimate = document.createElement('img');
+      starAnimate.className = 'imgStarAnimate';
+      starAnimate.src = '/images/animateStar.png';
+      starAnimate.alt = 'Imagen de la estrella donde aparece el nombre de la estrella que ha sido seleccionada para desaparecer';
+      starContainer.appendChild(starAnimate);
+      playerName.textContent = jugadorEliminado;
+      starContainer.appendChild(playerName); 
+
+      starAnimate.classList.toggle('rotate-animation');
+      playerNameContainer.classList.toggle('rotate-text');
     }
   });
 }
